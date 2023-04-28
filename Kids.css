@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Nunito&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito';
+
+}
+
+/* navbar start */
+
+.navbar{
+    padding: 4px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.logo-1 a img{
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    padding: 2px;
+
+}
+
+.logo-1 a img:hover{
+    background-color: rgb(41, 192, 11);
+    padding: 9px;
+    border-radius: 13px;
+
+}
+
+/* navlink starts */
+
+ul{
+    display: flex;
+}
+
+ul li{ 
+    position: relative;
+    list-style: none;
+}
+
+ul li a{
+    display: block;
+    padding: 11px 25px;
+    margin-top: 9px;
+    text-decoration: none;
+    color: black;
+}
+
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li a:hover{
+    color: rgb(41, 192, 11);
+
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/* navlinks ends */
+
+.logo-2{
+    margin-top: 7.5px;
+}
+
+.logo-2 a img{
+    
+    padding: 11px;
+    width: 45px;
+    height: 45px;
+}
+
+.logo-2 a img:hover{
+    background-color: rgb(41, 192, 11);
+    border-radius: 20px;
+}
+
+/* navbar end */
+
+.bgimg{
+    background-image: url(Img/products/kids/adidas\ bg\ img\ kids.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 86vh;
+    margin-top: 2px;
+ 
+}
+
+.detail{
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: white;
+
+}
+
+.detail h1{
+    margin-top: 160px;
+    font-family: 'Nanum Gothic';
+    font-size: 42px;
+    
+}
+
+.detail p{
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.btn button{
+    border-radius: 20px;
+    width: 160px;
+    height: 50px;
+    text-align: left;
+    font-size: larger;
+    border-color: transparent;
+    font-family: 'Nunito';
+    margin-left: 70px;
+    margin-top: 15px
+}
+
+.btn a{
+    margin-left: 13px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn button a:hover{
+    color: rgb(41, 192, 11);
+    text-decoration: underline;
+}
+
+.products-category{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.product-1, .product-2, .product-3, .product-4{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-1 img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    
+}
+
+.product-1 button{
+    font-family: "Nunito";
+    margin-top: 35px;
+    margin-left: 85px;
+    width: 75px;
+    height: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border-color: transparent;
+    
+}
+
+.product-1 button:hover{
+    background-color: black;
+    color: white;
+    width: 75px;
+    height: 30px;
+    text-decoration: underline;
+
+}
+
+.product-2 img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    
+}
+
+.product-2 button{
+    font-family: "Nunito";
+    margin-top: 35px;
+    margin-left: 96px;
+    width: 50px;
+    height: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.product-2 button:hover{
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 30px;
+    text-decoration: underline;
+
+}
+
+.product-3 img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    
+}
+
+.product-3 button{
+    font-family: "Nunito";
+    margin-top: 35px;
+    margin-left: 79px;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.product-3 button:hover{
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 30px;
+    text-decoration: underline;
+
+}
+
+.product-4 img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    
+}
+
+.product-4 button{
+    font-family: "Nunito";
+    margin-top: 35px;
+    margin-left: 94px;
+    width: 55px;
+    height: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.product-4 button:hover{
+    background-color: black;
+    color: white;
+    width: 55px;
+    height: 30px;
+    text-decoration: underline;
+
+}
+
+.submenus{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.submenu-product-1 img{
+    width: 22vw;
+    height: 52vh;
+    
+}
+
+.submenu-product-1 h4{
+    letter-spacing: 1px;
+}
+
+.submenu-product-1 button{
+    background-color: transparent;
+    border-color: transparent;
+    letter-spacing: 2px;
+    width: 100px;
+    height: 25px;
+}
+
+.submenu-product-1 button:hover{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 25px;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+.submenu-product-2 img{
+    width: 22vw;
+    height: 52vh;
+
+}
+
+.submenu-product-2 h4{
+    letter-spacing: 1px;
+}
+
+.submenu-product-2 button{
+    background-color: transparent;
+    border-color: transparent;
+    letter-spacing: 2px;
+    width: 100px;
+    height: 25px;
+}
+
+.submenu-product-2 button:hover{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 25px;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+.submenu-product-3 img{
+    width: 22vw;
+    height: 52vh;
+}
+
+.submenu-product-3 h4{
+    letter-spacing: 1px;
+}
+
+.submenu-product-3 button{
+    background-color: transparent;
+    border-color: transparent;
+    letter-spacing: 2px;
+    width: 125px;
+    height: 25px;
+}
+
+.submenu-product-3 button:hover{
+    background-color: black;
+    color: white;
+    width: 125px;
+    height: 25px;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+.submenu-product-4 img{
+    width: 22vw;
+    height: 52vh;
+}
+
+.submenu-product-4 h4{
+    letter-spacing: 1px;
+}
+
+.submenu-product-4 button{
+    background-color: transparent;
+    border-color: transparent;
+    letter-spacing: 2px;
+    width: 170px;
+    height: 25px;
+}
+
+.submenu-product-4 button:hover{
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 25px;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+.content{
+    text-align: center;
+    padding: 225px;
+}
+
+.content h1{
+    font-family: 'Nanum Gothic';
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.content p{
+    letter-spacing: 1px;
+    padding-left: 130px;
+    padding-right: 130px;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Nunito&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito';
+
+}
+
+.homelogo a img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.homelogo a img:hover{
+    background-color: purple;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Nanum Gothic';
+}
+
+.heading p{
+    font-size: 20px;
+}
+
+.heading h1{
+    font-size: 60px;
+}
+
+.paragraph{
+    margin-top: 50px;
+    font-family: 'Nunito';
+    text-align: left;
+    padding-left: 250px;
+    padding-right: 250px;
+    letter-spacing: 1px;
+    font-size: large;
+}
+
+.heading-2{
+    margin-top: 70px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.heading-2 h1{
+    font-family: 'Nanum Gothic';
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.picture img{
+    display: block;
+    margin-top: 40px;
+    padding-left: 230px;
+    padding-right: 230px;
+
+}
+
+.picture-1 img{
+    width: 85.5vw;
+    height: 70vh;
+    margin-top: 40px;
+    padding-left: 230px;
+}
